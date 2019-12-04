@@ -23,6 +23,7 @@ emission_shape = 2
 emission_box_extents = Vector3( 1, 1, 1 )
 flag_disable_z = true
 gravity = Vector3( 98, -98, 0 )
+angular_velocity = 7.13213e-023
 orbit_velocity = 0.0
 orbit_velocity_random = 0.0
 color = Color( 0.458824, 0.439216, 0.439216, 1 )
@@ -30,6 +31,7 @@ color = Color( 0.458824, 0.439216, 0.439216, 1 )
 [sub_resource type="ParticlesMaterial" id=4]
 flag_disable_z = true
 gravity = Vector3( 44, -98, 0 )
+angular_velocity = 0.147059
 angular_velocity_random = 1.0
 orbit_velocity = 0.0
 orbit_velocity_random = 0.0
