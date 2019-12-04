@@ -135,9 +135,3 @@ margin_top = 723.188
 margin_right = 314.809
 margin_bottom = 751.188
 expand = true
-
-[node name="TextEdit" type="TextEdit" parent="."]
-margin_left = 144.145
-margin_top = 427.0
-margin_right = 390.145
-margin_bottom = 532.0
