@@ -1,10 +1,14 @@
 extends KinematicBody2D
 
-var jump_speed = -450
+var jump_speed = -475
 var speed = 300
 var gravity = Vector2.DOWN * 500
 var velocity = Vector2()
 var jump = false
+var score = 0
+var max_height = 0
+var intscore = 0
+
 
 func _physics_process(delta):
 	velocity += gravity * delta
@@ -14,6 +18,11 @@ func _physics_process(delta):
 		velocity.y = jump_speed
 	if $ScreenTest.is_on_screen() == false:
 		get_tree().change_scene("res://Game Over.tscn")
+	max_height = -position.y
+	if max_height > score:
+		score = max_height
+		intscore = int(score)
+		$Score.update_score(intscore)
 		
 func get_input():
 	velocity.x = 0

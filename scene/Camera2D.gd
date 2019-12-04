@@ -10,8 +10,6 @@ func _process(delta):
 	var player_y = player.get_position().y
 	if player_y< get_position().y:
 		set_position(Vector2(0,player_y))
-	if player_y < (get_position().y - 100):
-		get_tree().change_scene("res://Game Over.tscn")
-		
+	
 	pass
 	
