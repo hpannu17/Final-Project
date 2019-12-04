@@ -6,7 +6,7 @@ func _ready():
 
 
 func _on_PlayButton_pressed():
-	get_tree().change_scene('res://Scenes/World.tscn')
+	get_tree().change_scene('res://World.tscn')
 	pass 
 
 
