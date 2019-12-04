@@ -136,8 +136,11 @@ margin_right = 314.809
 margin_bottom = 751.188
 expand = true
 
-[node name="TextEdit" type="TextEdit" parent="."]
-margin_left = 144.145
-margin_top = 427.0
-margin_right = 390.145
-margin_bottom = 532.0
+[node name="Label" type="Label" parent="."]
+margin_left = 59.7089
+margin_top = 456.0
+margin_right = 502.709
+margin_bottom = 530.0
+text = "Use the 'A' and 'D' keys to move left and right. Press 'Space' to jump. 
+
+Press 'Space' now to begin the game!"
